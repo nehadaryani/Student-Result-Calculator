@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <h2><u><b>STUDENT RESULT CALCULATOR</u></b></h2>
+            <h4><u><b>KINDLY ENTER THE MARKS SUBJECT-WISE</u></b></h4>
+            <form id="result-form">
+                <div class="form-group">
+                    <label for="subject1">CHEMISTRY MARKS</label>
+                    <input type="number" id="subject1" name="subject1" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject2">MATHS MARKS</label>
+                    <input type="number" id="subject2" name="subject2" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject3">PHYSICS MARKS</label>
+                    <input type="number" id="subject3" name="subject3" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject4">ENGLISH MARKS</label>
+                    <input type="number" id="subject4" name="subject4" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject5">BIOLOGY MARKS</label>
+                    <input type="number" id="subject5" name="subject5" required>
+                </div>
+                <button type="button" onclick="calculateResult()">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
